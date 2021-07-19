@@ -1,0 +1,38 @@
+header {
+    height: 150px;
+    background-color: lightblue;
+}
+
+.example{
+    text-align: center;
+}
+
+/* @media (condition) {
+    selector{
+        property: value;
+    }
+} 
+min-width = this size and greater
+max-width = this size and smaller
+*/
+
+/* from 480px and greater */
+@media (min-width: 480px) {
+    header {
+        background-color: lightcoral;
+    }
+}
+
+/* from 768px and greater */
+@media (min-width: 768px) {
+    header {
+        background-color: lightseagreen;
+    }
+}
+
+/* from 1024px and greater */
+@media (min-width: 1024px) {
+    header {
+        background-color: maroon;
+    }
+}
