@@ -1,0 +1,127 @@
+.noAutoPos {
+    margin: 0;
+    padding: 0;
+}
+
+/* MEDIA QUERY BREAKPOINTS STARTS */
+@media (max-width: 479px) {
+    .heroImage {
+        background-image: linear-gradient(#fe9900 0%, #241000 90%);
+    }
+
+    .articleDiv h2 {
+        color: #fe9900;
+    }
+
+    .footerDiv {
+        background-color: #241000;
+    }
+}
+
+@media (min-width: 480px) {
+    .heroImage {
+        background-image: linear-gradient(#78fe00 0%, #0f2400 90%);
+    }
+
+    .articleDiv h2 {
+        color: #78fe00;
+    }
+
+    .footerDiv {
+        background-color: #0f2400;
+    }
+}
+
+@media (min-width: 768px) {
+    .heroImage {
+        background-image: linear-gradient(#ae00fe 0%, #200024 90%);
+    }
+
+    .articleDiv h2 {
+        color: #ae00fe;
+    }
+
+    .footerDiv {
+        background-color: #200024;
+    }
+}
+
+@media (min-width: 1024px) {
+    .heroImage {
+        background-image: linear-gradient(#00d4fe 0%, #001d24 90%);
+    }
+
+    .articleDiv h2 {
+        color: #0c6d78;
+    }
+
+    .footerDiv {
+        background-color: #001d24;
+    }
+}
+/* MEDIA QUERY BREAKPOINTS ENDS */
+
+.alignRight { text-align: right; }
+.alignLeft { text-align: left; }
+
+/* HERO IMAGE CODE STARTS */
+.heroImage {
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.heroText {
+    display: inline-block;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    position: absolute;
+}
+/* HERO IMAGE CODE ENDS */
+
+.heroImage svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.articleDiv {
+    margin: 4vh 12vw;
+}
+
+.articleDiv h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+.articleDiv p {
+    font-size: 20px;
+}
+
+
+.footerDiv {
+    height: 20vh;
+    width: 100%;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+.footerText {
+    color: white;
+    font-size: 24px;
+    margin: 10vh 0;
+}
